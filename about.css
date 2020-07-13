@@ -1,0 +1,140 @@
+/* web design final project
+      author: hanna koh
+      date: april 30 2018 */
+
+
+*{
+  font-family: Verdana, tahoma, sans-serif;
+  margin:0px;
+  list-style:none;
+  padding:0;
+}
+body, .horizontalNAV{
+  width:100%;
+  min-width:1200px;
+  max-width:1571px;
+}
+
+
+header{
+  position:absolute;
+  top:18%;
+  left:35%;
+  width:30%;
+  height:auto;
+  padding-right:20px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav.horizontalNAV {
+  position:absolute;
+  width: 100%;
+  top:0%;
+  border-bottom:solid black 2px;
+}
+nav.horizontalNAV li {
+  font-size: 87.5%;
+  float: left;
+  padding: 15px 0px;
+  text-align: center;
+  width: 16.5%;
+}
+
+nav.horizontalNAV li a{
+  color: black;
+}
+
+nav.horizontalNAV li:hover {
+  background-color:white;
+  background-color:rgba(255, 255, 255, 0.8);
+}
+
+nav.verticalNAV{
+  float: right;
+  width: 12%;
+  height: auto;
+  padding-left:1%;
+  padding-right:15%;
+  margin-top:28%;
+  margin-right:6%;
+  padding-bottom:0em;
+  margin-bottom:0em;
+}
+
+nav.verticalNAV a{
+  color: rgb(255, 171, 147);
+  line-height:3em;
+  text-decoration:none;
+  border-bottom: 1px solid black;
+  display:block;
+}
+
+
+nav.verticalNAV a:hover{
+  color:rgb(124, 27, 0);
+  background-color:rgb(255, 201, 186);
+  background-color:rgba(255, 201, 186, 0.8);
+}
+
+img.bookquote1{
+  position:absolute;
+  top:110%;
+  left:65%;
+}
+
+.about p{
+  float:left;
+  margin-left:20%;
+  font-size:1em;
+  margin-top:10px;
+  margin-bottom:10%;
+  width:40%;
+  padding-top:10px;
+  padding-bottom:20px;
+  padding-left:20px;
+  padding-right:10px;
+  border-radius:25px;
+  background-color:rgb(255, 217, 198);
+}
+
+.about p a {
+  color:black;
+}
+
+img.authorpic{
+  border:solid black 3.5px;
+  margin-bottom:0px;
+  margin-top: 10px;
+  margin-left:30px;
+  margin-right:10px;
+  float:right;
+  margin-left:2%;
+}
+
+h2{
+  margin-top:10px;
+  text-align:center;
+  font-size:2em;
+  margin-left:20%;
+}
+
+
+footer {
+  clear: left;
+  width: 100%;
+  border-top: 1px solid black;
+  padding-bottom:10px;
+  background-color:rgb(255, 171, 153);
+  background-color:rgba(255, 171, 153, 0.2);
+}
+
+footer address {
+  padding-top:5px;
+  color: rgb(0, 35, 40);
+  font-size: 0.9em;
+  font-style: normal;
+  text-align: center;
+}
